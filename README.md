@@ -84,6 +84,88 @@ ipo-performance-prediction/
 | Elastic-Net Logistic | 59.14% | 0.604 | 61.97% | 0.630 |
 | Decision Tree | 58.80% | 0.590 | 61.52% | 0.643 |
 
+
+### Confusion Matrices
+
+#### 1-Day Predictions
+
+**Decision Tree:**
+| | Predicted Underperform | Predicted Outperform |
+|---|---|---|
+| **Actual Underperform (219)** | 79 | 140 |
+| **Actual Outperform (662)** | 119 | 543 |
+
+- Accuracy: 70.6% | Precision (Outperform): 0.79 | Recall (Outperform): 0.82
+
+**Random Forest:**
+| | Predicted Underperform | Predicted Outperform |
+|---|---|---|
+| **Actual Underperform (219)** | 74 | 145 |
+| **Actual Outperform (662)** | 147 | 515 |
+
+- Accuracy: 66.9% | Precision (Outperform): 0.78 | Recall (Outperform): 0.78
+
+**Gradient Boosting:**
+| | Predicted Underperform | Predicted Outperform |
+|---|---|---|
+| **Actual Underperform (219)** | 79 | 140 |
+| **Actual Outperform (662)** | 119 | 543 |
+
+- Accuracy: 70.3% | TN: 79, FP: 140, FN: 119, TP: 543
+- Precision (Outperform): 0.79 | Recall (Outperform): 0.82 | F1 (Outperform): 0.80
+- Precision (Underperform): 0.39 | Recall (Underperform): 0.36 | F1 (Underperform): 0.38
+
+**Elastic-Net Logistic:**
+| | Predicted Underperform | Predicted Outperform |
+|---|---|---|
+| **Actual Underperform (219)** | 45 | 174 |
+| **Actual Outperform (662)** | 186 | 476 |
+
+- Accuracy: 59.1% | Precision (Outperform): 0.73 | Recall (Outperform): 0.72
+
+---
+
+#### 1-Year Predictions
+
+**Decision Tree:**
+| | Predicted Underperform | Predicted Outperform |
+|---|---|---|
+| **Actual Underperform (496)** | 312 | 184 |
+| **Actual Outperform (385)** | 155 | 230 |
+
+- Accuracy: 61.5% | Precision (Underperform): 0.67 | Recall (Underperform): 0.63
+
+**Random Forest:**
+| | Predicted Underperform | Predicted Outperform |
+|---|---|---|
+| **Actual Underperform (496)** | 341 | 155 |
+| **Actual Outperform (385)** | 150 | 235 |
+
+- Accuracy: 65.4% | TN: 341, FP: 155, FN: 150, TP: 235
+- Precision (Underperform): 0.69 | Recall (Underperform): 0.69 | F1 (Underperform): 0.69
+- Precision (Outperform): 0.60 | Recall (Outperform): 0.61 | F1 (Outperform): 0.60
+
+**Gradient Boosting:**
+| | Predicted Underperform | Predicted Outperform |
+|---|---|---|
+| **Actual Underperform (496)** | 347 | 149 |
+| **Actual Outperform (385)** | 172 | 213 |
+
+- Accuracy: 63.6% | TN: 347, FP: 149, FN: 172, TP: 213
+- Precision (Underperform): 0.67 | Recall (Underperform): 0.70 | F1 (Underperform): 0.68
+- Precision (Outperform): 0.59 | Recall (Outperform): 0.56 | F1 (Outperform): 0.57
+
+**Elastic-Net Logistic:**
+| | Predicted Underperform | Predicted Outperform |
+|---|---|---|
+| **Actual Underperform (496)** | 321 | 175 |
+| **Actual Outperform (385)** | 160 | 225 |
+
+- Accuracy: 62.0% | Precision (Underperform): 0.67 | Recall (Underperform): 0.65
+
+---
+
+
 ---
 
 ## Methodology
