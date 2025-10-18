@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data (optional - keep small files, ignore large ones)
+# data/raw/*.csv
+# data/raw/*.xlsx
+
+# Models (large files)
+*.pkl
+*.h5
+*.model
+results/models/*.pkl
+
+# Results (generated files)
+# results/figures/*.png
+# results/tables/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
