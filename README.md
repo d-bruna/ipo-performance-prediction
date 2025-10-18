@@ -185,7 +185,7 @@ ipo-performance-prediction/
 - **Cross-validation:** 10-fold stratified
 - **Class imbalance:** SMOTE for 1-day (75.1% imbalance), balanced weights for 1-year
 - **Hyperparameter optimization:** Grid search with nested CV
-- **Evaluation:** Accuracy, ROC-AUC, F1-score, Precision, Recall
+- **Evaluation:** Accuracy, ROC-AUC, F1-score, Precision, Recall, Permutation analysis, Drop One analysis
 
 ---
 
