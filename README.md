@@ -55,36 +55,23 @@ python scripts/train_models.py
 
 ## Repository Structure
 ```
+ipo-performance-prediction/
 ├── data/
-│   ├── raw/                  # Original data sources
-│   └── processed/            # Cleaned final dataset
+│   └── processed/
 │       └── ipo_data_with_1year_excess_returns_CLEANED_FINAL.csv
 │
-├── notebooks/                # Jupyter notebooks for data pipeline
-│   ├── 01_data_scrape.ipynb           # Scrape Yahoo Finance data
-│   ├── 02_data_cleaning.ipynb         # Initial data cleaning
-│   ├── 03_cleaning_excess.ipynb       # Calculate excess returns
-│   └── 04_clean_1year.ipynb           # Final 1-year data preparation
+├── notebooks/
+│   ├── 01_data_scrape.ipynb              # Scrape Yahoo Finance data
+│   ├── 02_data_cleaning.ipynb            # Initial data cleaning
+│   ├── 03_cleaning_excess.ipynb          # Calculate excess returns
+│   └── 04_clean_1year.ipynb              # Final 1-year data preparation
 │
-├── src/                      # Source code
-│   ├── models.py             # All ML models
-│   ├── config.py             # Configuration
-│   └── utils.py              # Helper functions
+├── src/
+│   ├── config.py                         # Configuration and hyperparameters
+│   └── models.py                         # ML models and evaluation functions
 │
-├── scripts/                  # Executable scripts
-│   └── train_models.py       # Train all models
-│
-├── results/                  # Model outputs
-│   ├── figures/              # Plots and visualizations
-│   ├── tables/               # Performance metrics
-│   └── models/               # Saved model files
-│
-└── paper/                    # LaTeX paper
-    ├── main.tex
-    ├── main.pdf
-    └── Tables/
-```
-
+├── scripts/
+│   └── train_models.py                   # Main training script
 ---
 
 ## Model Performance
