@@ -1,7 +1,7 @@
 # Predicting IPO Performance Across Investment Horizons
 
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 
 This repository contains the complete code and analysis for our research paper: **"How does the importance of pre-IPO attributes change across different investment horizons when classifying IPO performance as under- or overperforming the S&P 500"**
 
@@ -128,12 +128,6 @@ python scripts/train_models.py
   institution={Erasmus University Rotterdam}
 }
 ```
-
----
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
