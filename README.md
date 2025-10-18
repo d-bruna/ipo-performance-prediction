@@ -71,8 +71,7 @@ ipo-performance-prediction/
 │   └── models.py                         # ML models and evaluation functions
 │
 ├── scripts/
-│   └── train_models.py                   # Main training script
----
+    └── train_models.py                   # Main training script
 ```
 
 
