@@ -19,6 +19,10 @@ This repository contains the complete code and analysis for our research paper: 
 
 This paper evaluates 881 IPOs with 18 features to predict whether they outperform the S&P 500 at 1-day and 1-year horizons. We employ four machine learning classifiers and find that feature importance shifts dramatically across horizons: 1-day outcomes align with offer mechanics and macroeconomic conditions, while 1-year outcomes emphasize institutional ownership, profitability, and sales growth.
 
+
+📄 **[Read the full paper (PDF)](paper.pdf)**
+
+
 ## Key Findings
 
 - **Best 1-day model:** Gradient Boosting (70.26% accuracy, 0.654 ROC-AUC)
